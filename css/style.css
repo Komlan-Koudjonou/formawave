@@ -1,0 +1,358 @@
+/* ----------------------- MON STYLE-CSS GÉNÉRAL --------------------------- */
+
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+.section-padding{
+    padding: 50px 0;
+}
+
+.lead{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+li{
+    list-style: none;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h5{
+    font-size: 17px;
+    color: #884da7;
+}
+
+h3{
+    color: #884da7;
+}
+
+p, li{
+    font-weight: lighter;
+}
+
+
+/* ----------------------- NAVBAR --------------------------- */
+
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  color: #fbb76b;
+}
+
+.navbar-light .navbar-nav .navbar-link{
+    color: #000;
+}
+
+
+/* ----------------------- FOOTER --------------------------- */
+
+.foot-text{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+
+/* ----------------------- MA SECTION 01 / CAROUSEL --------------------------- */
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    color: white;
+}
+
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.w-100{
+    height: 100vh;
+}
+
+
+/* ------------- MA SECTION 02 FORMAWAVE UNE RELATION QUI FONCTIONNE ------------- */
+
+.relation .card{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+
+/* ----------------------- MON RESPONSIVE --------------------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption{
+        bottom: 370px;
+    }
+    .carousel-caption p{
+        width: 100%;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .img-area img{
+        width: 100%;
+    }
+    .form_service{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .form_service{
+        display: none;
+    }
+}
+
+
+/* ------------- (formateurs.html) ------------- */
+
+/* ------------- MA SECTION FORMATEURS / BASELINE ------------- */
+
+.formateurs p:nth-child(3){
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.formateurs p:nth-child(1){
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.formateurs-image{
+    width: 250px;
+}
+
+
+/* ------------- MA SECTION ETAPES / PROCESS  ------------- */
+
+.process-ol{
+    font-size: 18px;
+    font-weight: 400;
+    color: #884da7;
+}
+
+/* ------------- MA SECTION NOS +  ------------- */
+
+.plus p{
+    font-weight: 300;
+}
+
+.plus{
+    background-color: #EBEDED;
+}
+
+.write{
+    font-size: x-large;
+    color: gray;
+}
+
+.etr{
+    background-color: #884da7;
+    color: white;
+}
+
+.tiret{
+    font-weight: lighter;
+    color: gray;
+    letter-spacing: 2px;
+}
+
+/* ------------- (consultants_collaborateurs.html) ------------- */
+
+/* ------------- MA SECTION CONSULTANTS / COLLABORATEURS ------------- */
+
+.cons{
+    background-color: #A6ADB4;
+    padding: 15px 30px;
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.coll{
+    background-color: #EBEDED;
+    padding: 15px 30px;
+    color: #884da7;
+    font-weight: lighter;
+}
+
+.col1{
+    color: #884da7;
+    font-size: 18px;
+}
+
+.col2{
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+/* ------------- MA SECTION CONSULTANTS  ------------- */
+
+.cons1{
+    color: #fbb76b;
+}
+
+.consultants{
+    color: #fbb76b;
+}
+
+/* ------------- MA SECTION COLLABORATEURS  ------------- */
+
+.collaborateurs{
+    color: #884da7;
+}
+
+.collabo{
+    color: black;
+    font-weight: bolder;
+}
+
+/* ------------- (entreprises_ecoles.html) ------------- */
+
+/* ------------- MA SECTION 01 / ENTREPRISE / ÉCOLE  ------------- */
+
+.entreprise{
+    color: #884da7;
+}
+
+/* ------------- MA SECTION 02 - ÉTAPES / PROCESS  ------------- */
+
+.process{
+    background-color: #884da7;
+}
+
+/* ------------- MA SECTION 03 - FORMAWAVE EN CHIFFRES  ------------- */
+
+.chiffres{
+    background-color: black;
+    color: white;
+}
+
+/* ------------- MA SECTION 04 - FORMAWAVE EN BREF ------------- */
+
+.bref p{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.bref1{
+    color: #A6ADB4;
+}
+
+.bref2{
+    color: #fbb76b;
+}
+
+.bref3{
+    color: #884da7;
+}
+
+.bref4{
+    color: #FF4D4D;
+}
+
+.bref5{
+    color: #72ACFF;
+}
+
+/* ------------- (formateurs.html) ------------- */
+
+/* ------------- MA SECTION  ETAPES / PROCESS ------------- */
+
+.formateurs-ol{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #884da7;
+    text-transform: uppercase;
+}
+
+
+/* ------------- (contact.html) ------------- */
+
+/* ------------- MA SECTION CONTACT ------------- */
+
+.contact h2{
+    color: #884da7;
+}
+
+.contact .tiret{
+    color: #884da7;
+}
+
+/* ------------- MA SECTION FORM & MAP ------------- */
+
+.form{
+    background-color: #EBEDED;
+}
+
+.form button{
+    background-color: #884da7;
+    border: none;
+    margin-right: -5px;
+}
+
+.navbar-toggler{
+    border: 1px;
+}
+
+.content{
+    max-width: 700px;
+    margin: 0 auto;
+}
